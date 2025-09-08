@@ -1,0 +1,39 @@
+
+@media (min-width: 640px) {
+    .course-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-content {
+        padding: 0 1rem;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        background-color: var(--primary-color);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav li {
+        border-bottom: none;
+    }
+
+    nav a {
+        padding: 1rem 1.5rem;
+    }
+}
