@@ -23,7 +23,7 @@ async function loadMembers() {
         const card = document.createElement('div');
         card.className = 'member-card';
 
-        // IMAGE CONTAINER — FIXED SIZE, NO STRETCHING
+        
         const imgContainer = document.createElement('div');
         imgContainer.className = 'img-container';
 
