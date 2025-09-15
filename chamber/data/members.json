@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Oceanside restaurant",
+    "tagline": "Iconic corner & Mar del Plata flavors",
+    "address": "Av. Costanera 123, Mar del Plata",
+    "phone": "+54 223 456-7890",
+    "website": "https://oceanside.com.ar",
+    "image": "images/oceanside.jpg",
+    "membershipLevel": 3,
+    "category": "Restaurants"
+  },
+  {
+    "name": "Marítima Store",
+    "tagline": "Marine Clothing and Equipment",
+    "address": "Calle Mitre 200, Mar del Plata",
+    "phone": "+54 223 456-7891",
+    "website": "https://tiendamaritima.com.ar",
+    "image": "images/store.jpg",
+    "membershipLevel": 2,
+    "category": "Stores"
+  },
+  {
+    "name": "Hotel Sheraton",
+    "tagline": "Luxury oceanfront accommodation",
+    "address": "Av. Pellegrini 300, Mar del Plata",
+    "phone": "+54 223 456-7892",
+    "website": "https://sheratonmardelplata.com-hotel.com/es/",
+    "image": "images/hotel.jpg",
+    "membershipLevel": 3,
+    "category": "Hoteles"
+  },
+  {
+    "name": "Pezatti tourism agency",
+    "tagline": "Trips along the coast",
+    "address": "Av. San Martín 450, Mar del Plata",
+    "phone": "+54 223 456-7893",
+    "website": "https://solymar.com.ar",
+    "image": "images/agency.jpg",
+    "membershipLevel": 2,
+    "category": "Tourism"
+  },
+  {
+    "name": "Mar del Plata National University",
+    "tagline": "the place where the dreams of a people and a nation grow",
+    "address": "Calle Belgrano 500, Mar del Plata",
+    "phone": "+54 223 456-7894",
+    "website": "https://www.mdp.edu.ar/",
+    "image": "images/university.jpg",
+    "membershipLevel": 1,
+    "category": "Education"
+  },
+  {
+    "name": "Pueyrredon Clinic",
+    "tagline": "Medical attention 24/7",
+    "address": "Av. Colón 600, Mar del Plata",
+    "phone": "+54 223 456-7895",
+    "website": "https://www.clinicapueyrredon.com/r",
+    "image": "images/clinic.jpg",
+    "membershipLevel": 2,
+    "category": "Health"
+  },
+  {
+    "name": "Glaciar Pesquera S.A",
+    "tagline": "Dedicated to sustainable fishery",
+    "address": "Calle Sarmiento 700, Mar del Plata",
+    "phone": "+54 223 456-7896",
+    "website": "https://glaciarpesquera.com/",
+    "image": "images/glaciar.jpg",
+    "membershipLevel": 1,
+    "category": "Fishery"
+  }
+]

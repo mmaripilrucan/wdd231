@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="directory of companies members of the chamber of commerce from Mar del Plata, Argentina." />
+  <meta name="author" content="Miguel Maripil" />
+  <title>Directory | Chamber of commerce of Mar del Plata</title>
+
+  <!-- Open Graph / Facebook Meta Tags -->
+  <meta property="og:title" content="directory of companies - chamber of commerce of Mar del Plata" />
+  <meta property="og:description" content="Find local companies in Mar del Plata, Argentina." />
+  <meta property="og:image" content="https://yourdomain.com/images/logo.png" />
+  <meta property="og:url" content="https://yourdomain.com/directory.html" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/favicon.ico" />
+
+  <!-- Reset CSS -->
+  <link rel="stylesheet" href="styles/reset.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Chamber of commerce of Mar del Plata logo" class="logo" />
+      <h1>Chamber of commerce of Mar del Plata</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">discover</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/hero-mar-del-plata.jpg" alt="Panorámica de Mar del Plata" class="hero-image" />
+      <div class="hero-overlay">
+        <h2>Connecting local businesses</h2>
+        <p>Discover the best companies in Mar del Plata.</p>
+        <a href="#directory" class="btn">See directory</a>
+      </div>
+    </section>
+
+    <section id="directory" class="directory-section">
+      <div class="view-toggle">
+        <button id="grid-view">Grid view</button>
+        <button id="list-view">List view</button>
+      </div>
+
+      <div id="members-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <h3>Chamber of commerce of Mar del Plata</h3>
+        <address>
+          Av. Pellegrini 456, Mar del Plata, Buenos Aires<br />
+          Tel: +54 223 456-7890<br />
+          Email: info@camaramdplata.org.ar
+        </address>
+      </div>
+
+      <div class="social-links">
+        <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a>
+      </div>
+
+      <div class="project-info">
+        <p>WDD231 Class Project | Miguel Maripil</p>
+        <p>© <span id="year"></span> Chamber of commerce of Mar del Plata</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
