@@ -23,7 +23,7 @@ async function loadMembers() {
         const card = document.createElement('div');
         card.className = 'member-card';
 
-        
+        // IMAGE CONTAINER — FIXED SIZE, NO STRETCHING
         const imgContainer = document.createElement('div');
         imgContainer.className = 'img-container';
 
@@ -97,11 +97,13 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const lastModified = new Date(document.lastModified);
-document.getElementById('last-modified').textContent = lastModified.toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric'
-});
+const month = lastModified.getMonth() + 1;     // 0–11 → 1–12
+const day = lastModified.getDate();
+const year = lastModified.getFullYear();
+const hours = lastModified.getHours();         // 0–23 (24-hour)
+const minutes = lastModified.getMinutes().toString().padStart(2, '0'); // Ensures "5" → "05"
+
+document.getElementById('last-modified').textContent = `${month}/${day}/${year} ${hours}:${minutes}`;
 
 // Initialize
 loadMembers();
