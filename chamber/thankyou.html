@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thank you for joining the Chamber of Commerce of Mar del Plata!" />
+  <meta name="author" content="Miguel Maripil" />
+  <title>Thank you | Chamber of Commerce of Mar del Plata</title>
+
+  
+  <meta property="og:title" content="Thank you for joining" />
+  <meta property="og:description" content="Your request has been succesfully submitted." />
+  <meta property="og:image" content="https://yourdomain.com/images/hero-mar-del-plata.jpg" />
+  <meta property="og:url" content="https://yourdomain.com/thankyou.html" />
+
+  
+  <link rel="icon" href="favicon.ico" />
+
+  
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Chamber of Commerce of Mar del Plata logo" class="logo" />
+      <h1>Chamber of Commerce of Mar del Plata</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <main>
+    <section class="thankyou-section">
+      <h1>Thank you for joining!</h1>
+      <p>We received your request succesfully. We will contact you soon.</p>
+
+      <div class="form-data">
+        <h2>Information sent</h2>
+        <p><strong>Name:</strong> <span id="display-firstName"></span></p>
+        <p><strong>Last Name:</strong> <span id="display-lastName"></span></p>
+        <p><strong>Email:</strong> <span id="display-email"></span></p>
+        <p><strong>Mobile Phone Number:</strong> <span id="display-phone"></span></p>
+        <p><strong>Name of the Company/Organization:</strong> <span id="display-businessName"></span></p>
+        <p><strong>Date and Time:</strong> <span id="display-timestamp"></span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <h3>Chamber of commerce of Mar del Plata</h3>
+        <address>
+          Av. Pellegrini 456, Mar del Plata, Buenos Aires<br />
+          Tel: +54 223 456-7890<br />
+          Email: info@camaramdplata.org
+        </address>
+      </div>
+
+      <div class="social-links">
+        <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a>
+      </div>
+
+      <div class="project-info">
+        <p>WDD231 Class Project | Miguel Maripil</p>
+        <p>© <span id="year"></span> Chamber of commerce of Mar del Plata</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+  <script src="scripts/thankyou.js"></script>
+</body>
+</html>

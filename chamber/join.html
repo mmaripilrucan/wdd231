@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Join the Chamber of Commerce of Mar del Plata. Complete the membership form." />
+  <meta name="author" content="Miguel Maripil" />
+  <title>Join | Chamber of commerce of Mar del Plata</title>
+
+  
+  <meta property="og:title" content="Join - Chamber of Commerce of Mar del Plata" />
+  <meta property="og:description" content="Complete the membership form to jointhe Chamber of Commerce of Mar del Plata." />
+  <meta property="og:image" content="https://yourdomain.com/images/hero-mar-del-plata.jpg" />
+  <meta property="og:url" content="https://yourdomain.com/join.html" />
+
+  
+  <link rel="icon" href="favicon.ico" />
+
+  
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Chamber of commerce of Mar del Plata logo" class="logo" />
+      <h1>Cámara de Comercio de Mar del Plata</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html" class="active">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Apply for membership</h2>
+      <p>Complete the following form to join the Chamber of Commerce of Mar del Plata.</p>
+
+      <form action="thankyou.html" method="get" class="membership-form">
+        
+        <label for="firstName">Name <span class="required">*</span></label>
+        <input type="text" id="firstName" name="firstName" required autocomplete="given-name" placeholder="Ej. Juan" />
+
+        
+        <label for="lastName">Last Name <span class="required">*</span></label>
+        <input type="text" id="lastName" name="lastName" required autocomplete="family-name" placeholder="Ej. Pérez" />
+
+        
+        <label for="orgTitle">Position within the organization</label>
+        <input type="text" id="orgTitle" name="orgTitle" autocomplete="organization-title"
+               pattern="[A-Za-z\s\-]+" title="only letters, spaces and dashes. 7 characters minimum."
+               placeholder="ie. Chief Executive Officer
+
+        <!-- Email -->
+        <label for="email">email <span class="required">*</span></label>
+        <input type="email" id="email" name="email" required autocomplete="email"
+               placeholder="example@company.com" />
+
+        
+        <label for="phone">Mobile Phone Number <span class="required">*</span></label>
+        <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="+54 223 123-4567" />
+
+        
+        <label for="businessName">Name of the Company/Organization <span class="required">*</span></label>
+        <input type="text" id="businessName" name="businessName" required autocomplete="organization" placeholder="Ej. Beach Restaurant" />
+
+        
+        <fieldset>
+          <legend>Membership level <span class="required">*</span></legend>
+          <label>
+            <input type="radio" name="membershipLevel" value="np" required />
+            NP (Non-Profit organizations) — Free
+          </label>
+          <label>
+            <input type="radio" name="membershipLevel" value="bronze" />
+            Bronze — $500/mes
+          </label>
+          <label>
+            <input type="radio" name="membershipLevel" value="silver" />
+            Silver — $1,200/mes
+          </label>
+          <label>
+            <input type="radio" name="membershipLevel" value="gold" />
+            Gold — $2,500/mes
+          </label>
+        </fieldset>
+
+        
+        <label for="description">Description of the Company/Organization <span class="required">*</span></label>
+        <textarea id="description" name="description" rows="5" placeholder="Describe your business and mission." required></textarea>
+
+        
+        <input type="hidden" id="timestamp" name="timestamp" />
+
+        
+        <button type="submit" class="btn">Send Request</button>
+      </form>
+    </section>
+
+    
+    <section class="membership-cards">
+      <h3>Descubre los Beneficios</h3>
+      <div class="card card-np" data-modal="modal-np">
+        <h4>NP — Non-Profit</h4>
+        <p>Free of charge for Non-Profit Organizations.</p>
+        <a href="#" class="card-link">See benefits</a>
+      </div>
+      <div class="card card-bronze" data-modal="modal-bronze">
+        <h4>Bronze</h4>
+        <p>Perfect for small local companies.</p>
+        <a href="#" class="card-link">See benefits</a>
+      </div>
+      <div class="card card-silver" data-modal="modal-silver">
+        <h4>Silver</h4>
+        <p>Recommended for growing businesses.</p>
+        <a href="#" class="card-link">See benefits</a>
+      </div>
+      <div class="card card-gold" data-modal="modal-gold">
+        <h4>Gold</h4>
+        <p>For market leading companies.</p>
+        <a href="#" class="card-link">See benefits</a>
+      </div>
+    </section>
+  </main>
+
+  
+  
+  <div id="modal-np" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>NP Benefits</h3>
+      <ul>
+        <li>Listing in our directory</li>
+        <li>Access to networking events</li>
+        <li>Publication in our monthly newsletter</li>
+        <li>Chamber administrative support</li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div id="modal-bronze" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Bronze benefits</h3>
+      <ul>
+        <li>All the NP benefits</li>
+        <li>Publications on our social networks</li>
+        <li>10% off in events</li>
+        <li>Logo on chamber of commerce webpage</li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div id="modal-silver" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Silver benefits</h3>
+      <ul>
+        <li>All the Bronze benefits</li>
+        <li>Spotlight on main page (one month)</li>
+        <li>20% off in events</li>
+        <li>Participation in exclusive events</li>
+        <li>Logo on printed bulletin</li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div id="modal-gold" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Gold benefits</h3>
+      <ul>
+        <li>All silver benefuts</li>
+        <li>Spotlight on main page (Three months)</li>
+        <li>30% off in events</li>
+        <li>Publicity on our 10k subscribers newsletter</li>
+        <li>Participation in board meetings</li>
+        <li>Logo in all publications</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <h3>Chamber of commerce of Mar del Plata</h3>
+        <address>
+          Av. Pellegrini 456, Mar del Plata, Buenos Aires<br />
+          Tel: +54 223 456-7890<br />
+          Email: info@camaramdplata.org
+        </address>
+      </div>
+
+      <div class="social-links">
+        <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a>
+      </div>
+
+      <div class="project-info">
+        <p>WDD231 Class Project | Miguel Maripil</p>
+        <p>© <span id="year"></span> Chamber of commerce of Mar del Plata</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+  <script src="scripts/join.js"></script>
+</body>
+</html>
