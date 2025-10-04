@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Playa Grande",
+    "address": "Av. Costanera, Mar del Plata",
+    "description": "The most famous beach in Mar del Plata, ideal for walking, surfing, and enjoying the sunrise."
+  },
+  {
+    "name": "Museo Marítimo",
+    "address": "Av. Perón 1700, Mar del Plata",
+    "description": "A journey through Argentina's naval history with historic vessels and interactive exhibits."
+  },
+  {
+    "name": "Paseo Diamante",
+    "address": "Paseo Diamante, Mar del Plata",
+    "description": "A coastal promenade with gardens, fountains, and sculptures. Ideal for families and sunrise strolls."
+  },
+  {
+    "name": "El Faro",
+    "address": "Av. Costanera 1200, Mar del Plata",
+    "description": "A historic lighthouse with panoramic ocean views. Ideal for photos and leisurely strolls."
+  },
+  {
+    "name": "Teatro Auditorium",
+    "address": "Av. Perón 1500, Mar del Plata",
+    "description": "One of the most important theaters in South America. Concerts, operas, and internationally acclaimed shows."
+  },
+  {
+    "name": "Parque San Martín",
+    "address": "Av. Pellegrini 2200, Mar del Plata",
+    "description": "The city's green lung. Ideal for walks, sports, and family picnics."
+  },
+  {
+    "name": "La Rambla",
+    "address": "Costanera, Mar del Plata",
+    "description": "An area of ​​bars, restaurants, and nightlife. The heart of summer entertainment."
+  },
+  {
+    "name": "Museo de la Ciudad",
+    "address": "Av. Colón 1000, Mar del Plata",
+    "description": "An exhibition on the history, architecture, and evolution of Mar del Plata since 1870"
+  }
+]
