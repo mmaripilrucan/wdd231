@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Maripil">
+    <meta name="description" content="Contact Alquimia Financiera Consultores for a free consultation.">
+    <title>Contact Us | Alquimia Financiera Consultores</title>
+    <meta property="og:title" content="Contact Us">
+    <meta property="og:description" content="Get in touch for financial consulting services.">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Alquimia Financiera Consultores</a>
+            <button id="hamburger" aria-label="Toggle menu">☰</button>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="our-team.html">Our Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="text-center">
+            <h1>Contact Us</h1>
+            <p>Have questions? Ready to plan your financial future? Send us a message!</p>
+        </section>
+
+        <form action="contact-form-action.html" method="GET">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+                <option value="">Please select</option>
+                <option value="Investment Planning">Investment Planning</option>
+                <option value="Tax Strategy">Tax Strategy</option>
+                <option value="Retirement Planning">Retirement Planning</option>
+                <option value="Estate Planning">Estate Planning</option>
+                <option value="General Consultation">General Consultation</option>
+            </select>
+
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Alquimia Financiera Consultores</p>
+            <p>
+                <a href="attributions.html">Attributions</a> |
+                <a href="https://www.youtube.com/watch?v=EBX_HGDwVL0" target="_blank">Project Video</a>
+            </p>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

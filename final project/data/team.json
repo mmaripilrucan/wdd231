@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Miguel Maripil",
+    "title": "CFO",
+    "photo": "miguel-maripil.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rodrigo Jaramillo",
+    "title": "Director of Client Service",
+    "photo": "rodrigo-jaramillo.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tamara López",
+    "title": "Talent Acquisition Lead",
+    "photo": "tamara-lopez.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gonzalo Jara",
+    "title": "Consultant",
+    "photo": "gonzalo-jara.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Juan Aubone",
+    "title": "Consultant",
+    "photo": "juan-aubone.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ariana Villasmil",
+    "title": "Consultant Manager",
+    "photo": "ariana-villasmil.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Luciano Torres",
+    "title": "Consultant",
+    "photo": "luciano-torres.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Sergio Castillo",
+    "title": "Consultant",
+    "photo": "sergio-castillo.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Juan Bosselyn",
+    "title": "Consultant",
+    "photo": "juan-bosselyn.jpg"
+  }
+]

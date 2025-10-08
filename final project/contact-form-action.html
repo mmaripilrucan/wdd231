@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You - Alquimia Financiera Consultores</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Alquimia Financiera Consultores</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Thank You for Your Message</h1>
+        <div id="submitted-data">
+            <p>Loading your submission...</p>
+        </div>
+        <a href="index.html" class="btn">Back to Home</a>
+    </main>
+
+    <script>
+        // Parse URLSearchParams
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get('name');
+        const email = urlParams.get('email');
+        const message = urlParams.get('message');
+        const service = urlParams.get('service');
+
+        const container = document.getElementById('submitted-data');
+        if (name && email) {
+            container.innerHTML = `
+                <p><strong>Name:</strong> ${name}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Service Interest:</strong> ${service || 'Not specified'}</p>
+                <p><strong>Message:</strong></p>
+                <p>${message || 'No message provided.'}</p>
+                <p>We’ll contact you within 24 hours.</p>
+            `;
+        } else {
+            container.innerHTML = `<p>Invalid submission. Please go back and try again.</p>`;
+        }
+    </script>
+</body>
+</html>
